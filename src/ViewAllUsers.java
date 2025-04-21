@@ -18,8 +18,8 @@ public class ViewAllUsers {
             System.out.println("=== List of Users ===");
             
             while (rs.next()) {
-                System.out.println("🆔 ID: " + rs.getInt("id"));
-                System.out.println("👤 Username: " + rs.getString("username"));
+                System.out.println("ID: " + rs.getInt("id"));
+                System.out.println("Username: " + rs.getString("username"));
                 System.out.println("---------------------------");
             }
 
